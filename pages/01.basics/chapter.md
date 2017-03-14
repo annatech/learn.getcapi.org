@@ -18,3 +18,5 @@ World's first commercial Joomla REST API - cAPI is an extensible platform for bu
 
 Now listed in the Joomla! Extensions Directory.
 [![](capi-logo-v2-333333-128.png)](https://extensions.joomla.org/extensions/extension/capi-core-rest-api)
+
+![https://extensions.joomla.org/profile/profile/details/293249/](joomla-extensions-developer.png)
