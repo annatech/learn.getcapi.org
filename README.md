@@ -1,4 +1,4 @@
-# [learn.getcapi.org!](https://learn.getcapi.org)
+# [learn.getcapi.org](https://learn.getcapi.org)
 ### cAPI Documentation Site
 
 ## Why build a Joomla RESTful API? ##
