@@ -1,11 +1,12 @@
 ---
 title: 'GET category/list/:id/categories'
-published: true
+published: false
 taxonomy:
     category:
         - docs
 process:
     markdown: true
+    twig: false
 child_type: default
 routable: true
 cache_enable: true
