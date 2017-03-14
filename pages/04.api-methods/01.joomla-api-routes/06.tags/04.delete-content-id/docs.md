@@ -1,5 +1,6 @@
 ---
 title: 'DELETE content/delete/:id'
+published: false
 taxonomy:
     category:
         - docs
