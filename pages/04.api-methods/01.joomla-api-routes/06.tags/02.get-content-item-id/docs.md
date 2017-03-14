@@ -1,6 +1,6 @@
 ---
 title: 'GET content/item/:id'
-published: true
+published: false
 taxonomy:
     category:
         - docs
