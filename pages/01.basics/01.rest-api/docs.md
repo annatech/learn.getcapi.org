@@ -12,7 +12,7 @@ The REST APIs provide programmatic access to read and write data to your Joomla 
 [Click here to access our Methods documentation.](../../api-methods)
 
 ### Latest Updates
-As of version 1.1.0 of cAPI, the more recent updates are highlighted below. We’re excited about what it means for developers and we’ve captured all the meaningful changes here so you don’t miss a thing.
+Visit our changelog for details on our latest update for [cAPI v1.2.7](../../changelog/version-1-2-7).
 
 #### Token Management API
 As of version v1.2.5, cAPI exposed a collection of service routes to allow complete remote management of access tokens.
