@@ -31,8 +31,6 @@ https://yourdomain.com/api/v1/user
 
 ### Example Result
 
->>>>> Responses have been cleansed to protect private session data.
-
 #### JSON Response
 
 ##### Guest
@@ -46,7 +44,21 @@ https://yourdomain.com/api/v1/user
 ##### Logged In
 ```json
 {
-  "msg": "Welcome Steve Tsiopanos",
+  "0": {
+    "username": "steve.tsiopanos",
+    "email": "stevetsi@annatech.com",
+    "sendEmail": "1",
+    "registerDate": "2016-03-25 02:50:07",
+    "lastvisitDate": "2017-03-19 19:12:31",
+    "activation": "0",
+    "params": "",
+    "groups": {
+      "8": "8"
+    },
+    "lastResetTime": "0000-00-00 00:00:00",
+    "resetCount": "0",
+    "requireReset": "0"
+  },
   "error": false,
   "status": 200
 }
@@ -54,15 +66,15 @@ https://yourdomain.com/api/v1/user
 
 #### Response Headers
 ```
-HTTP/1.1 200 OK
-Date: Sun, 25 Oct 2015 15:08:00 GMT
-Server: Apache
-X-Powered-By: PHP/5.4.39
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Headers: X-Requested-With, Origin, Content-Type, token, dlid, nonce
-Access-Control-Allow-Methods: PUT, GET, POST, DELETE, OPTIONS
-Keep-Alive: timeout=5, max=50
-Connection: Keep-Alive
-Transfer-Encoding: chunked
-Content-Type: application/json
+{
+  "server": "Apache/2.4.6",
+  "transfer-encoding": "Identity",
+  "content-type": "application/json",
+  "date": "Sun, 19 Mar 2017 19:12:42 GMT",
+  "connection": "Keep-Alive",
+  "access-control-allow-methods": "PUT, GET, POST, DELETE, OPTIONS",
+  "access-control-allow-origin": "*",
+  "keep-alive": "timeout=5, max=87",
+  "access-control-allow-headers": "X-Requested-With, Origin, Content-Type, token, dlid, nonce"
+}
 ```
