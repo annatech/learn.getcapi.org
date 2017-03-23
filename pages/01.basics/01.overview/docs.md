@@ -7,7 +7,7 @@ taxonomy:
 
 ## Why build a Joomla RESTful API? ##
 
-It's no secret that platform-agnositic web services are taking over the internet and that RESTful APIs are at the forefront of this communications revolution. As a CMS, Joomla nestles itself comfortably between the ease of Wordpress and power of Drupal but has recently lagged behind them both in the realm of JSON-based RESTful APIs.
+It's no secret that platform-agnositic web services are taking over the internet and that RESTful APIs are at the forefront of this communications revolution. As a CMS, Joomla nestles itself comfortably between the ease of Wordpress and power of Drupal but has recently lagged behind them both in the realm of JSON-based REST APIs.
 
 Simply having access to a wealth of frameworks does not relieve devlopers from the hard work of building tokenization, access-control, api rate-throttling or even the underlying content management system. The end-result still needs to be a fully realized product like, for example, a website driving a mobile app or a core middleware service joined to a corporate domain. The end-user needs more than just a framework and the developer can build faster if all the core components are complete.
 
