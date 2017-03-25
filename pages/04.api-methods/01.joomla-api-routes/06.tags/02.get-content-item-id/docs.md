@@ -1,5 +1,5 @@
 ---
-title: 'GET content/item/:id'
+title: 'GET tag/:id '
 published: false
 taxonomy:
     category:
