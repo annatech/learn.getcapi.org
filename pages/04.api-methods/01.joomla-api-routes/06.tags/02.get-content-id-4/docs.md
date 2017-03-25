@@ -1,5 +1,5 @@
 ---
-title: 'DELETE content/delete/:id'
+title: 'DELETE tag/:id '
 published: false
 taxonomy:
     category:
