@@ -10,8 +10,6 @@ Update existing Joomla user.
 ### Resource URL
 https://yourdomain.com/api/v1/user/edit/:id
 
->>> UNDER CONSTRUCTION - PAGE INCOMPLETE
-
 ### Resource Information
 
 | Option | Description |
@@ -32,10 +30,12 @@ https://yourdomain.com/api/v1/user/edit/:id
 
 If the groups list is missing, null or out of bounds, it will default to group ids array(1,2).
 
+UPDATE 2017-03-31: This method currently requires administrative access. Therefore, a user cannot use this method on their own account to update their own (or other's) passwords unless they are already an administrator with core.admin capability.
+
 ### Example Request
 
 POST
-https://yourdomain.com/api/v1/user/edit
+https://yourdomain.com/api/v1/user/edit/344
 ?name=First Last
 &username=firstlast
 &password=randompassword
