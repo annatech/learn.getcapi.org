@@ -12,7 +12,7 @@ World's first commercial Joomla REST API - cAPI is an extensible platform for bu
 
 *** 100% *** GPL Open Source - The software is yours to keep, _forever_   <span class="fa fa-heart"></span> !
 
-*** $75 annual *** subscription gets you *** one year*** of upgrades and updates to the *** entire cAPI Core Package ***,  including the Control Panel and all current / new Joomla & Slim API methods.
+*** $125 annual *** subscription gets you *** one year*** of upgrades and updates to the *** entire cAPI Core Package ***,  including the Control Panel and all current / new Joomla & Slim API methods.
 <div style="text-align:center;"><a href="https://www.annatech.com/signup/get-started-with-joomla-restful-web-services.html"><i class="fa fa-cart-arrow-down fa-4x"></i></a></div>
 ### [&nbsp;&nbsp;Ready to Buy?](https://www.annatech.com/signup/get-started-with-joomla-restful-web-services.html)
 
