@@ -19,17 +19,22 @@ Included below is an example of a popular and support server configuration. We b
 #### Linux
 
 RHEL / CentOS 6.x, 7.x (latest, stable)
+Fedora (working, limited testing)
+Ubuntu (working, limited testing)
 
 #### Apache
 
 Apache 2.2.x,2.4.x (latest, stable/patched)
+Nginx not officially supported yet (on the roadmap)
 
 #### PHP
 
 Minimum: PHP 5.5.x (latest, stable)
+Recommended: PHP 7.0.x (latest, stable) Note that this will depend on compatiblity of other Joomla extensions with PHP7.
 
 #### MySQL
 
 Minium: MySQL 5.5.x (latest, stable)
+Also supports latest stable MariaDB.
 
 
