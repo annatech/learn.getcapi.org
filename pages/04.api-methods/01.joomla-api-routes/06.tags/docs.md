@@ -13,6 +13,6 @@ cache_enable: true
 visible: true
 ---
 
-## Under Construction
+## Content Under Construction
 
-### Coming soon in cAPI v1.2.8!
+### Released in cAPI v1.2.8!
