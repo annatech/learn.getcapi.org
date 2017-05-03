@@ -2,12 +2,25 @@
 title: 'GET cms/version/:option'
 ---
 
-Get current logged in user or display if accessing web service as guest.
+Return Joomla CMS version information in different formats.
 
->>> This method requires that a persistent HTTP sessions can be maintained between the client and server since the user returned with respect to the current browser (or other persistent) session.
+#### Additional Information
+
+##### shortversion
+Gets a PHP standardized version string for the current Joomla.
+
+##### longversion
+Gets a version string for the current Joomla with all release information.
+
+##### useragent
+Returns the user agent.
+
+##### helpversion
+Method to get the help file version.
+
 
 ### Resource URL
-https://yourdomain.com/api/v1/user
+https://yourdomain.com/api/v1/cms/version/:option
 
 ### Resource Information
 
@@ -19,7 +32,9 @@ https://yourdomain.com/api/v1/user
 
 ### Parameters
 
-Method does not accept parameters.
+|  Name  |  Details  |  
+|  :-----          |  :-----          |
+|  **option** | <ul><li>required</li><li>string</li></ul> |
 
 ### Example Request
 
@@ -33,29 +48,36 @@ https://yourdomain.com/api/v1/user
 ##### Guest
 ```json
 {
-  "msg": "Welcome guest",
+  "msg": "Guests cannot view version information.",
   "error": false,
-  "status": 200
+  "status": 403
 }
 ```
 ##### Logged In
 ```json
 {
-  "0": {
-    "username": "steve.tsiopanos",
-    "email": "stevetsi@annatech.com",
-    "sendEmail": "1",
-    "registerDate": "2016-03-25 02:50:07",
-    "lastvisitDate": "2017-03-19 19:12:31",
-    "activation": "0",
-    "params": "",
-    "groups": {
-      "8": "8"
-    },
-    "lastResetTime": "0000-00-00 00:00:00",
-    "resetCount": "0",
-    "requireReset": "0"
-  },
+  "shortVersion": "3.7.0",
+  "error": false,
+  "status": 200
+}
+```
+```json
+{
+  "longVersion": "Joomla! 3.7.0 Stable [ Amani ] 25-April-2017 15:36 GMT",
+  "error": false,
+  "status": 200
+}
+```
+```json
+{
+  "userAgent": "Mozilla/5.0 Joomla!/3.7.0 Framework/3.7",
+  "error": false,
+  "status": 200
+}
+```
+```json
+{
+  "helpVersion": ".37",
   "error": false,
   "status": 200
 }
@@ -65,13 +87,11 @@ https://yourdomain.com/api/v1/user
 ```
 {
   "server": "Apache/2.4.6",
-  "transfer-encoding": "Identity",
   "content-type": "application/json",
-  "date": "Sun, 19 Mar 2017 19:12:42 GMT",
+  "date": "Wed, 03 May 2017 02:19:43 GMT",
   "connection": "Keep-Alive",
-  "access-control-allow-methods": "PUT, GET, POST, DELETE, OPTIONS",
-  "access-control-allow-origin": "*",
-  "keep-alive": "timeout=5, max=87",
-  "access-control-allow-headers": "X-Requested-With, Origin, Content-Type, token, dlid, nonce"
+  "access-control-allow-origin": "https://getcapi.io",
+  "content-length": "51",
+  "keep-alive": "timeout=5, max=100"
 }
 ```
