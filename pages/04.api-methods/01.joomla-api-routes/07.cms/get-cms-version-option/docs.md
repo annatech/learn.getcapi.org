@@ -1,5 +1,8 @@
 ---
 title: 'GET cms/version/:option'
+taxonomy:
+    category:
+        - docs
 ---
 
 Return Joomla CMS version information in different formats.
