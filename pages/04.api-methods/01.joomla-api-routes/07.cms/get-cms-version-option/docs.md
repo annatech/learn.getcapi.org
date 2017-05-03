@@ -42,7 +42,7 @@ https://yourdomain.com/api/v1/cms/version/:option
 ### Example Request
 
 GET
-https://yourdomain.com/api/v1/user
+https://yourdomain.com/api/v1/cms/version/shortversion
 
 ### Example Result
 
