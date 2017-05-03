@@ -30,7 +30,7 @@ https://yourdomain.com/api/v1/cms/version/:option
 | Option | Description |
 | ------ | ----------- |
 | Response formats   | JSON |
-| Requires authentication | No |
+| Requires authentication | Yes |
 | Rate limited    | NO |
 
 ### Parameters
