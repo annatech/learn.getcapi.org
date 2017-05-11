@@ -1,5 +1,8 @@
 ---
 title: 'Getting Started'
+metadata:
+    keywords: 'php, rest, api, joomla, webservices'
+    description: 'REST API for Joomla - Powered by Slim micro-framework - cAPI is an extensible platform for building robust RESTful web services powered by the Joomla CMS.'
 taxonomy:
     category:
         - docs
