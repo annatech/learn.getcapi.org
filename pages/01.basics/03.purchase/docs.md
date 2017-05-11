@@ -43,5 +43,5 @@ taxonomy:
 
 <div class="clear"></div>
 <div style="text-align:center">
-<h1><a type="button" href="https://www.annatech.com/signup/get-started-with-joomla-restful-web-services.html">{Buy Now}</a></h1>
+<h1><a type="button" href="https://www.annatech.com/index.php?option=com_payplans&view=plan&task=login&plan_id=9">{Buy Now}</a></h1>
 </div>
