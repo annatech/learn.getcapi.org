@@ -4,9 +4,14 @@ title: 'version 1.3.1'
 
 ## Overview
 ### Released 
-2017-05-01
+2017-05-11
 
-The release of cAPI v1.3.0 includes changes to class autoloading from services plugins helpers. Also includes a minor response scheme change to GET /user route.. The next version of cAPI will handle tag assignment to com_content items.
+The release of cAPI v1.3.1 includes the following:
+
+* Swagger documentation fixes for Tag service routes.
+* BUG FIX - Resolved issue with REST API limitation for token access not working properly since version 1.2.8.
+
+Previous release:
 
 **cAPI v1.3.0 is now fully compatible with Joomla 3.7!**
 
