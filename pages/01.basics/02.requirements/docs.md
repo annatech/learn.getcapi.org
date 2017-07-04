@@ -13,7 +13,7 @@ cAPI is compatible with the latest stable version of Joomla 3.6.x or higher. We 
 
 ### Additional Requirements
 
-Included below is an example of a popular and support server configuration. We build our developement environments using the REMI and EPEL repos (REMI mainly for PHP 5.6.x / 7.0.x and MariaDB 5.5.x). 
+Included below is an example of popular / supported server configurations. We build our developement environments using the REMI and EPEL repos (REMI mainly for PHP 5.6.x / 7.0.x and MariaDB 5.5.x). 
 
 
 #### Linux
