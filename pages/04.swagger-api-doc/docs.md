@@ -13,22 +13,22 @@ twig_first: true
 <style>
     html
     {
-        box-sizing: border-box !important;
-        overflow: -moz-scrollbars-vertical !important;
-        overflow-y: scroll !important;
+        box-sizing: border-box;
+        overflow: -moz-scrollbars-vertical;
+        overflow-y: scroll;
     }
     *,
     *:before,
     *:after
     {
-        box-sizing: inherit !important;
+        box-sizing: inherit;
     }
 
     body {
       margin:0;
       background: #fafafa;
     }
-  </style>
+</style>
 
 {% endblock %}
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
