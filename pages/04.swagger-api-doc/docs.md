@@ -5,30 +5,6 @@ twig_first: true
 
 <iframe onload="iFrameHeight()"	id="blockrandom" name="iframe" src="/swagger-ui-master/dist/" width="100%" height="900" scrolling="auto" frameborder="0" class="wrapper"> This option will not work correctly. Unfortunately, your browser does not support inline frames.</iframe>
 
-{# Add assets into head of the document by using default priority. #}
-{% assets in 'head' with { priority: 0 } %}
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
-  <style>
-    html
-    {
-        box-sizing: border-box;
-        overflow: -moz-scrollbars-vertical;
-        overflow-y: scroll;
-    }
-    *,
-    *:before,
-    *:after
-    {
-        box-sizing: inherit;
-    }
-
-    body {
-      margin:0;
-      background: #fafafa;
-    }
-  </style>
-{% endassets -%}
 
 <div id="swagger-ui"></div>
 
