@@ -16,4 +16,5 @@ API methods inventory for core plugins and API extentions.
 
 <span style="text-align:center" class="fa fa-arrow-down fa-3x"></span>
 
+### [Swagger API Doc](/swagger-api-doc)
 ### [getcapi.io](http://getcapi.io)
