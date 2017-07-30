@@ -10,8 +10,7 @@ twig_first: true
 {% do assets.addCss('css-inline') %}
 {% do assets.addCss('css-link', {'group': 'head-link'}) %}
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+
 
 <style>
     html
