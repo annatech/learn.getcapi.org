@@ -6,8 +6,8 @@ process:
 twig_first: true
 ---
 
-{% do assets.addCss('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700') %}
-{% do assets.addCss('/swagger-ui-master/dist/swagger-ui.css' ) %}
+{% do assets.addCss() ~ asset('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700') %}
+{% do assets.addCss() ~ asset('/swagger-ui-master/dist/swagger-ui.css') %}
 
 {% block stylesheets %}
 
