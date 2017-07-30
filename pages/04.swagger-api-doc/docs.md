@@ -48,8 +48,8 @@ twig_first: true
 
 <div id="swagger-ui"></div>
 
-<script src="./swagger-ui-bundle.js"> </script>
-<script src="./swagger-ui-standalone-preset.js"> </script>
+<script src="/swagger-ui-master/dist/swagger-ui-bundle.js"> </script>
+<script src="/swagger-ui-master/dist/swagger-ui-standalone-preset.js"> </script>
 <script>
 window.onload = function() {
   
