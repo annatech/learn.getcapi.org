@@ -7,9 +7,6 @@ twig_first: true
 ---
 
 {% block stylesheets %}
-{% do assets.addCss('css-inline') %}
-{% do assets.addCss('css-link', {'group': 'head-link'}) %}
-
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/swagger-ui-master/dist/swagger-ui.css" >
 
@@ -34,15 +31,6 @@ twig_first: true
   </style>
 
 {% endblock %}
-{{ assets.css('head-link') }}
-{{ assets.css('head', {'loading': 'inline'}) }}
-
-
-
-
-
-
-
 
 <div id="swagger-ui"></div>
 
@@ -50,7 +38,6 @@ twig_first: true
 <script src="/swagger-ui-master/dist/swagger-ui-standalone-preset.js"> </script>
 <script>
 window.onload = function() {
-  
   // Build a system
   const ui = SwaggerUIBundle({
     url: "https://getcapi.io/api/v1/slim/swagger",
@@ -63,9 +50,7 @@ window.onload = function() {
     plugins: [
       SwaggerUIBundle.plugins.DownloadUrl
     ],
-    
   })
-
   window.ui = ui
 }
 </script>
