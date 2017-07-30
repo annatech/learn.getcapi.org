@@ -10,6 +10,25 @@ twig_first: true
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/swagger-ui-master/dist/swagger-ui.css" >
 
+<style>
+    html
+    {
+        box-sizing: border-box !important;
+        overflow: -moz-scrollbars-vertical !important;
+        overflow-y: scroll !important;
+    }
+    *,
+    *:before,
+    *:after
+    {
+        box-sizing: inherit !important;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
 
 {% endblock %}
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
