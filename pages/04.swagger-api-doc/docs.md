@@ -47,7 +47,6 @@ never_cache_twig: true
   </defs>
 </svg>
 
-{{ assets.css() }}
 
 <div id="swagger-ui"></div>
 
