@@ -8,30 +8,9 @@ never_cache_twig: true
 ---
 
 {% block stylesheets %}
-
 {% do assets.addCss(url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700')) %}
 {% do assets.addCss(url('/swagger-ui-master/dist/swagger-ui.css')) %}
-
-<style>
-    html
-    {
-        box-sizing: border-box;
-        overflow: -moz-scrollbars-vertical;
-        overflow-y: scroll;
-    }
-    *,
-    *:before,
-    *:after
-    {
-        box-sizing: inherit;
-    }
-
-    body {
-      margin:0;
-      background: #fafafa;
-    }
-</style>
-
+{% do assets.addCss(url('/swagger-ui-master/dist/swagger-ui-custom.css')) %}
 {% endblock %}
 {{ assets.css() }}
 
