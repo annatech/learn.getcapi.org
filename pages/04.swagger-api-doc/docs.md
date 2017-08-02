@@ -1,8 +1,8 @@
 ---
 title: 'Swagger API Doc'
 process:
-    markdown: true
     twig: true
+    markdown: false
 twig_first: true
 never_cache_twig: true
 ---
