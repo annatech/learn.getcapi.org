@@ -8,8 +8,9 @@ never_cache_twig: true
 ---
 
 {% block stylesheets %}
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/swagger-ui-master/dist/swagger-ui.css" >
+
+{% do assets.addCss(url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700')) %}
+{% do assets.addCss(url('/swagger-ui-master/dist/swagger-ui.css')) %}
 
 <style>
     html
@@ -32,6 +33,8 @@ never_cache_twig: true
 </style>
 
 {% endblock %}
+{{ assets.css() }}
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
   <defs>
     <symbol viewBox="0 0 20 20" id="unlocked">
