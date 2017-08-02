@@ -12,7 +12,6 @@ never_cache_twig: true
 {% do assets.addCss(url('/swagger-ui-master/dist/swagger-ui.css')) %}
 {% do assets.addCss(url('/swagger-ui-master/dist/swagger-ui-custom.css')) %}
 {% endblock %}
-{{ assets.css() }}
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
   <defs>
@@ -47,6 +46,9 @@ never_cache_twig: true
 
   </defs>
 </svg>
+
+{{ assets.css() }}
+
 <div id="swagger-ui"></div>
 
 <script src="/swagger-ui-master/dist/swagger-ui-bundle.js"> </script>
