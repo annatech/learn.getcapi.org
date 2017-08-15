@@ -9,7 +9,7 @@ title: 'version 1.3.3'
 cAPI v1.3.3 includes a bug fix for the Download ID component parameter and how it populates extra_query field in the update_sites table. It's likely that the previous couple releases may not automatically update via the Joomla Updater (even with your Download ID configured). If that is the case, you should download and install cAPI Core v1.3.3, manually.
 
 *IMPORTANT:
-Existing users should re-enter and save their [Download ID](https://learn.getcapi.org/basics/updates) after updating to cAPI v1.3.3.
+Existing users should re-enter and save their [Download ID](/basics/updates) after updating to cAPI v1.3.3.
 
 This release includes the following:
 
