@@ -15,5 +15,6 @@ Once you have downloaded and installed the cAPI Core Package make sure to log in
 3. Next, click on the "Download ID" tab where you can paste your ID.
 
 ![](capi-configure-updates.jpg)
+_Above image may not accurately reflect current version._
 
 With an active subscription this will allow you to download and install future updates directly from your website!
