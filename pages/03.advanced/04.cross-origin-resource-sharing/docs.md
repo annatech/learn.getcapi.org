@@ -18,7 +18,7 @@ I will first show you sample jQuery Ajax syntax followed by the html for the div
 
 <iframe width="100%" height="350" src="//jsfiddle.net/annatech/18255qtb/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-As you can see, it is possible to query a RESTful JSON API and output the contents directly on a web page (all client-side, in browser). The example above even passes a token through the header to authenticate access to a restricted page.
+As you can see, it is possible to query a RESTful JSON API and output the contents directly on a web page (all client-side, in browser).
 
 To make the request to the API server possible, two important steps are taken:
 
