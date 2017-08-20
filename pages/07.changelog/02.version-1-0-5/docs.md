@@ -1,8 +1,6 @@
 ---
 title: 'Version 1.0.5'
 taxonomy:
-    category:
-        - docs
     tag:
         - changelog
 ---
