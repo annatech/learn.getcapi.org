@@ -30,5 +30,5 @@ API methods inventory for core plugins and API extentions.
 ### [getcapi.io](http://getcapi.io)
 
 {% for p in page.collection %}
-- [ {{ p.title }}]({{p.link}})
+1 [ {{ p.title }}]({{p.link}})
 {% endfor %}
