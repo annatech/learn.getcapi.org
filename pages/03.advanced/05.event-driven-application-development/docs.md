@@ -13,7 +13,7 @@ React PHP libraries were introduced into cAPI release v1.3.2 to open the door fo
 
 * Keep an eye on these pages for additional information as we update our documentation to include new API methods to generate and interact with asynchronous event handlers, timers, promises and more!
 
-<span class="fa fa-github"></span> <span class="fa fa-twitter"></span> <span class="fa fa-number"></span>
+<span class="fa fa-github"></span> <span class="fa fa-twitter"></span> <span class="fa fa-hashtag"></span>
 
 ### Additional Resources
 
