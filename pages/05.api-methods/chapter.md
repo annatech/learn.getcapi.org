@@ -4,6 +4,13 @@ published: true
 taxonomy:
     category:
         - docs
+content:
+    items: '@self.children'
+    order:
+        by: title
+        dir: asc
+    limit: 99
+    pagination: false
 ---
 
 ### Chapter 4
@@ -18,3 +25,7 @@ API methods inventory for core plugins and API extentions.
 
 ### [Swagger API Doc](/swagger-api-doc)
 ### [getcapi.io](http://getcapi.io)
+
+{% for p in page.collection %}
+##### [ {{ p.title }}]({{p.link}})
+{% endfor %}
