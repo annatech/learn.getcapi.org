@@ -6,6 +6,13 @@ taxonomy:
 process:
     markdown: true
     twig: true
+content:
+    items: '@self.children'
+    order:
+        by: title
+        dir: asc
+    limit: 99
+    pagination: false
 ---
 
 ### Chapter 3
@@ -13,3 +20,7 @@ process:
 # Advanced
 
 How to ***secure*** the API and ***configure*** your server
+
+{% for p in page.collection %}
+#### [ {{ p.title }}]({{p.link}})
+{% endfor %}
