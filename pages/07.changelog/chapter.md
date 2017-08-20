@@ -3,6 +3,8 @@ title: Changelog
 taxonomy:
     category:
         - docs
+    tag:
+        - changelog
 process:
     markdown: true
     twig: true
