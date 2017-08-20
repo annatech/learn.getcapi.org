@@ -1,5 +1,5 @@
 ---
-title: react
+title: 'React PHP'
 process:
     markdown: true
     twig: true
@@ -11,8 +11,6 @@ content:
     limit: 99
     pagination: false
 ---
-
-## React PHP
 
 {% for p in page.collection %}
 #### [ {{ p.title }}]({{p.link}})
