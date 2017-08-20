@@ -23,6 +23,8 @@ React PHP libraries were introduced into cAPI release v1.3.2 to open the door fo
 
 [https://learn.getcapi.org/advanced/event-driven-application-development](/libraries/services-libraries/react-php)
 
+#### By Developer Sergey Zhuk
+
 [http://seregazhuk.github.io](http://seregazhuk.github.io)
 
 - [Event-Driven PHP with ReactPHP: Event Loop And Timers](http://seregazhuk.github.io/2017/06/06/phpreact-event-loop/)
