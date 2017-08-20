@@ -11,9 +11,17 @@ child_type: default
 routable: true
 cache_enable: true
 visible: true
+content:
+    items: '@self.children'
+    order:
+        by: title
+        dir: desc
+    limit: 99
+    pagination: false
 ---
 
 ## Slim API Routes
 
-### [GET /slim/routes](/api-methods/slim-api-routes/get-slim-routes) ####
-### [GET /slim/swagger](/api-methods/slim-api-routes/get-slim-swagger) ####
+{% for p in page.collection %}
+#### [ {{ p.title }}]({{p.link}})
+{% endfor %}
