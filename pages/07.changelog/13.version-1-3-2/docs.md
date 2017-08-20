@@ -1,5 +1,10 @@
 ---
 title: 'version 1.3.2'
+taxonomy:
+    category:
+        - docs
+    tag:
+        - changelog
 ---
 
 ## Overview
