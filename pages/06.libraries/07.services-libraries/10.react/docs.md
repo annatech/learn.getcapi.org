@@ -3,11 +3,20 @@ title: react
 process:
     markdown: true
     twig: true
+content:
+    items: '@self.children'
+    order:
+        by: date
+        dir: desc
+    limit: 10
+    pagination: true
 ---
 
-{{ dump(page.collection[page.path]) }}
+{% set options = { items: {'@page.children': '/my/pages'}, 'limit': 5, 'order': {'by': 'date', 'dir': 'desc'}, 'pagination': true } %}
+{% set my_collection = page.collection(options) %}
 
-{% for p in page.collection %}
-<h2>{{ p.title }}</h2>
-{{ p.summary }}
+<ul>
+{% for p in my_collection %}
+<li>{{ p.title }}</li>
 {% endfor %}
+</ul>
