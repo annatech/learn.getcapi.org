@@ -19,7 +19,7 @@ content:
 
 # Advanced
 
-How to ***secure*** the API and ***configure*** your server
+How to ***secure*** the API, ***configure*** your server and more!
 
 {% for p in page.collection %}
 #### [ {{ p.title }}]({{p.link}})
