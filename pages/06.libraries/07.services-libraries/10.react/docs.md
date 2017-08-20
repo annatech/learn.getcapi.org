@@ -13,5 +13,5 @@ content:
 ---
 
 {% for p in page.collection %}
-### [ {{ p.title }}]({{p.link}})
+#### [ {{ p.title }}]({{p.link}})
 {% endfor %}
