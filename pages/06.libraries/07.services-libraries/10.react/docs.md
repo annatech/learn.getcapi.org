@@ -5,7 +5,7 @@ process:
     twig: true
 ---
 
-{{ dump(page.collection[libraries/services-libraries/react]) }}
+{{ dump(page.collection[page.path]) }}
 
 {% for p in page.collection %}
 <h2>{{ p.title }}</h2>
