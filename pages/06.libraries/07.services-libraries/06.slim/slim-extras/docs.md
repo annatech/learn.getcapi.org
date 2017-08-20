@@ -2,7 +2,6 @@
 title: slim-extras
 ---
 
-
 # Slim Framework Extras
 
 This repository contains extra resources that complement the Slim Framework, a PHP micro framework that helps
