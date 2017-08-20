@@ -1,5 +1,5 @@
 ---
-title: zircote/swager-php
+title: swager-php
 ---
 
 [![Build Status](https://img.shields.io/travis/zircote/swagger-php/master.svg?style=flat-square)](https://travis-ci.org/zircote/swagger-php)
