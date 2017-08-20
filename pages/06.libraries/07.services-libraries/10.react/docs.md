@@ -3,8 +3,6 @@ title: react
 process:
     markdown: true
     twig: true
-content:
-    items: '@page./libraries/services-libraries/react'
 ---
 
 {{ dump(page.collection[libraries/services-libraries/react]) }}
