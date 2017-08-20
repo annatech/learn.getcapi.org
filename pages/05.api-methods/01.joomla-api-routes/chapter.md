@@ -15,6 +15,8 @@ content:
     pagination: false
 ---
 
+## Joomla API Routes
+
 {% for p in page.collection %}
 #### [ {{ p.title }}]({{p.link}})
 {% endfor %}
