@@ -7,7 +7,7 @@ content:
     items: '@page./libraries/services-libraries/react'
 ---
 
-{% for p in page.collection %}
+{% for p in page %}
 <h2>{{ p.title }}</h2>
 {{ p.summary }}
 {% endfor %}
