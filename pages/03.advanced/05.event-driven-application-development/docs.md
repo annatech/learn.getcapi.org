@@ -8,7 +8,7 @@ process:
     twig: true
 content:
     items:
-        '@page': react-php
+        '@page': /libraries/services-libraries/react-php
     order:
         by: title
         dir: asc
