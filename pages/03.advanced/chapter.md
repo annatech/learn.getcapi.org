@@ -3,6 +3,9 @@ title: Advanced
 taxonomy:
     category:
         - docs
+process:
+    markdown: true
+    twig: true
 ---
 
 ### Chapter 3
