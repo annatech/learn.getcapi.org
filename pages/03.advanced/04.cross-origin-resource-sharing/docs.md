@@ -34,14 +34,18 @@ Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
 /api/v1/index.php
 
 ``` php
-if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
-  // return only the headers and not the content
-  // only allow CORS if we're doing a GET - i.e. no saving for now.
-  if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD']) && $_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD'] == 'GET') {
-    header('Access-Control-Allow-Origin: *');
-    header('Access-Control-Allow-Headers: X-Requested-With');
-  }
-  exit;
+if(isset($_SERVER['HTTP_REFERER'])) {
+    header('Access-Control-Allow-Origin: ' . parse_url($_SERVER['HTTP_REFERER'])['scheme'] . '://' . parse_url($_SERVER['HTTP_REFERER'])['host']);
+}
+// respond to preflights
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    // return only the headers and not the content
+    // only allow CORS if we're doing a GET - i.e. no saving for now.
+    if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD']) && $_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD'] === 'GET') {
+        $app->response->header('Access-Control-Allow-Origin', '*');
+        $app->response->header('Access-Control-Allow-Headers', 'X-Requested-With');
+    }
+    exit;
 }
 ```
 
