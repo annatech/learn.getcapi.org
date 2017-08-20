@@ -3,6 +3,17 @@ title: 'REST API Mangement'
 taxonomy:
     category:
         - docs
+content:
+    items: '@self.children'
+    order:
+        by: title
+        dir: desc
+    limit: 99
+    pagination: false
 ---
 
 ## REST API Mangement
+
+{% for p in page.collection %}
+#### [ {{ p.title }}]({{p.link}})
+{% endfor %}
