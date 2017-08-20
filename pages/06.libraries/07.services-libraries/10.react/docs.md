@@ -4,7 +4,7 @@ process:
     markdown: true
     twig: true
 content:
-    items: '@root.libraries.services.libraries.react'
+    items: '@page./libraries/services-libraries/react'
 ---
 
 {% for p in page.collection %}
