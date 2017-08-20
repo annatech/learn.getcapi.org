@@ -7,7 +7,7 @@ taxonomy:
 
 [![React PHP](reactphp.png?cropResize=250)](http://reactphp.org)
 
-## [<span class="fa fa-github"> Github</span>](https://github.com/reactphp) [<span class="fa fa-twitter"> Twitter</span>](https://twitter.com/reactphp) [<span class="fa fa-slack"> IRC</span>](irc://irc.freenode.net/reactphp)
+#### [<span class="fa fa-github"> Github</span>](https://github.com/reactphp) [<span class="fa fa-twitter"> Twitter</span>](https://twitter.com/reactphp) [<span class="fa fa-slack"> IRC</span>](irc://irc.freenode.net/reactphp)
 
 
 > ReactPHP is a low-level library for event-driven programming in PHP. At its core is an event loop, on top of which it provides low-level utilities, such as: Streams abstraction, async dns resolver, network client/server, http client/server, interaction with processes. Third-party libraries can use these components to create async network clients/servers and more.
