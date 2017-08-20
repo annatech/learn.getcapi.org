@@ -21,7 +21,7 @@ React PHP libraries were introduced into cAPI release v1.3.2 to open the door fo
 
 #### React PHP Libraries Included with cAPI
 
-[libraries/services-libraries/react-php](libraries/services-libraries/react-php)
+[https://learn.getcapi.org/advanced/event-driven-application-development](/libraries/services-libraries/react-php)
 
 [http://seregazhuk.github.io](http://seregazhuk.github.io)
 
