@@ -15,7 +15,7 @@ content:
     pagination: false
 ---
 
-### Chapter 5
+### Chapter 6
 
 # Changelog
 
