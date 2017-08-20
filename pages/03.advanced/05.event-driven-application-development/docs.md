@@ -3,6 +3,14 @@ title: 'Event-Driven  Non-blocking I/O with PHP'
 taxonomy:
     category:
         - docs
+content:
+    items:
+        '@page': react-php
+    order:
+        by: title
+        dir: asc
+    limit: 99
+    pagination: false
 ---
 
 [![React PHP](reactphp.png?cropResize=250)](http://reactphp.org)
@@ -22,6 +30,10 @@ React PHP libraries were introduced into cAPI release v1.3.2 to open the door fo
 #### React PHP Libraries Included with cAPI
 
 [https://learn.getcapi.org/advanced/event-driven-application-development](/libraries/services-libraries/react-php)
+
+{% for p in page.collection %}
+#### [ {{ p.title }}]({{p.link}})
+{% endfor %}
 
 #### By Developer Sergey Zhuk
 
