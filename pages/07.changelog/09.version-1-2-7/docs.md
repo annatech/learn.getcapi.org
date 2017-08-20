@@ -1,5 +1,10 @@
 ---
 title: 'version 1.2.7'
+taxonomy:
+    category:
+        - docs
+    tag:
+        - changelog
 ---
 
 ## Overview
