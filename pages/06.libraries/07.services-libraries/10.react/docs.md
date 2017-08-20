@@ -13,5 +13,5 @@ content:
 ---
 
 {% for p in page.collection %}
-[ {{ p.title }}]({{p.link}})
+<h2> [ {{ p.title }}]({{p.link}}) </h2>
 {% endfor %}
