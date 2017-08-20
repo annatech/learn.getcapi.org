@@ -1,5 +1,8 @@
 ---
 title: 'Version 1.2.2'
+taxonomy:
+    category:
+        - docs
 ---
 
 ## Overview
