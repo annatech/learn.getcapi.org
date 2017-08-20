@@ -12,7 +12,7 @@ content:
     pagination: true
 ---
 
-{% set options = { items: {'@page.children': '/my/pages'}, 'limit': 5, 'order': {'by': 'date', 'dir': 'desc'}, 'pagination': true } %}
+{% set options = { items: {'@page.children': '/react'}, 'limit': 5, 'order': {'by': 'date', 'dir': 'desc'}, 'pagination': true } %}
 {% set my_collection = page.collection(options) %}
 
 <ul>
