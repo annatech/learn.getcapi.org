@@ -35,7 +35,7 @@ React PHP libraries were introduced into cAPI release v1.3.2 to open the door fo
 [https://learn.getcapi.org/advanced/event-driven-application-development](/libraries/services-libraries/react-php)
 
 {% for p in page.collection %}
-[* {{ p.title }}]({{p.link}})
++[{{ p.title }}]({{p.link}})
 {% endfor %}
 
 #### By Developer Sergey Zhuk
