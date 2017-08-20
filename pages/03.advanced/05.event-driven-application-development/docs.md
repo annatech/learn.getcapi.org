@@ -27,7 +27,6 @@ React PHP libraries were introduced into cAPI release v1.3.2 to open the door fo
 - [Build A Simple Chat With ReactPHP Socket: Server](http://seregazhuk.github.io/2017/06/22/reactphp-chat-server/)
 - [Build A Simple Chat With ReactPHP Socket: Client](http://seregazhuk.github.io/2017/06/24/reactphp-chat-client/)
 - [UDP/Datagram Sockets with ReactPHP](http://seregazhuk.github.io/2017/07/05/reactphp-udp/)
-- [Singleton: Anti-Pattern Or Not](http://seregazhuk.github.io/2017/07/11/singleton/)
 - [Building Video Streaming Server with ReactPHP](http://seregazhuk.github.io/2017/07/17/reatcphp-http-server/)
 - [Making Asynchronous HTTP Requests With ReactPHP](http://seregazhuk.github.io/2017/07/26/reactphp-http-client/)
 - [Managing Child Processes With ReactPHP](http://seregazhuk.github.io/2017/08/07/reactphp-child-process/)
