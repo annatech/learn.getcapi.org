@@ -1,5 +1,8 @@
 ---
 title: finder
+taxonomy:
+    category:
+        - docs
 ---
 
 Finder Component
