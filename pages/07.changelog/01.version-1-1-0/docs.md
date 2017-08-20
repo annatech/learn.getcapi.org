@@ -3,8 +3,6 @@ title: 'Version 1.1.0'
 taxonomy:
     tag:
         - changelog
-    category:
-        - docs
 ---
 
 ## Overview
