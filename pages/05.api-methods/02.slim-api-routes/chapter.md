@@ -6,7 +6,7 @@ taxonomy:
         - docs
 process:
     markdown: true
-    twig: false
+    twig: true
 child_type: default
 routable: true
 cache_enable: true
