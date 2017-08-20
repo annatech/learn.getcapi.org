@@ -1,5 +1,5 @@
 ---
-title: 'Event-Drive  Non-blocking I/O with PHP'
+title: 'Event-Driven  Non-blocking I/O with PHP'
 taxonomy:
     category:
         - docs
