@@ -12,7 +12,7 @@ content:
     pagination: false
 ---
 
-## Joomla API Routes
+## React PHP
 
 {% for p in page.collection %}
 #### [ {{ p.title }}]({{p.link}})
