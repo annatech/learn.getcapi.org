@@ -1,5 +1,10 @@
 ---
 title: 'version 1.2.8'
+taxonomy:
+    category:
+        - docs
+    tag:
+        - changelog
 ---
 
 ## Overview
