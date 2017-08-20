@@ -11,7 +11,7 @@ content:
     items: '@self.children'
     order:
         by: title
-        dir: desc
+        dir: asc
     limit: 99
     pagination: false
 ---
