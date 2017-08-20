@@ -3,6 +3,9 @@ title: 'Event-Driven  Non-blocking I/O with PHP'
 taxonomy:
     category:
         - docs
+process:
+    markdown: true
+    twig: true
 content:
     items:
         '@page': react-php
