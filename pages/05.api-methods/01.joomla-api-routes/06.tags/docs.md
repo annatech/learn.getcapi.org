@@ -11,8 +11,19 @@ child_type: default
 routable: true
 cache_enable: true
 visible: true
+content:
+    items: '@self.children'
+    order:
+        by: title
+        dir: desc
+    limit: 99
+    pagination: false
 ---
 
 ## Content Under Construction
 
 ### Released in cAPI v1.2.8!
+
+{% for p in page.collection %}
+#### [ {{ p.title }}]({{p.link}})
+{% endfor %}
