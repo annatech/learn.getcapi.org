@@ -24,9 +24,3 @@ How to ***secure*** the API, ***configure*** your server and more!
 {% for p in page.collection %}
 #### [ {{ p.title }}]({{p.link}})
 {% endfor %}
-
-### Additional Resources
-
-http://seregazhuk.github.io
-
-[Event-Driven PHP with ReactPHP: Event Loop And Timers](http://seregazhuk.github.io/2017/06/06/phpreact-event-loop/)
