@@ -1,6 +1,8 @@
 ---
 title: 'Version 1.1.0'
 taxonomy:
+    category:
+        - docs
     tag:
         - changelog
 ---
