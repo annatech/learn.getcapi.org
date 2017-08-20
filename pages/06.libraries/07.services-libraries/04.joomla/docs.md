@@ -3,6 +3,9 @@ title: joomla
 taxonomy:
     category:
         - docs
+process:
+    markdown: true
+    twig: true
 content:
     items: '@self.children'
     order:
