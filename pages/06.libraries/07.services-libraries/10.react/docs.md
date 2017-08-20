@@ -6,10 +6,13 @@ process:
 content:
     items: '@self.children'
     order:
-        by: date
+        by: title
         dir: desc
-    limit: 10
-    pagination: true
+    limit: 99
+    pagination: false
 ---
 
-{% set default_collection = page.collection %}
+{% for p in page.collection %}
+<h2>{{ p.title }}</h2>
+{{ p.summary }}
+{% endfor %}
