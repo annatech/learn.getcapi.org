@@ -1,5 +1,8 @@
 ---
 title: react-event-loop
+taxonomy:
+    category:
+        - docs
 ---
 
 # EventLoop Component
