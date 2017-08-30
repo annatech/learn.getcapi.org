@@ -1,5 +1,8 @@
 ---
 title: 'React PHP'
+taxonomy:
+    category:
+        - docs
 process:
     markdown: true
     twig: true
