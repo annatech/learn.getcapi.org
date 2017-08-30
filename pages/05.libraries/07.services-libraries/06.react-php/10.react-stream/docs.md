@@ -1,5 +1,8 @@
 ---
 title: react-stream
+taxonomy:
+    category:
+        - docs
 ---
 
 # Stream Component
