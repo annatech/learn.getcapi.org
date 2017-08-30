@@ -1,5 +1,8 @@
 ---
 title: react-socket
+taxonomy:
+    category:
+        - docs
 ---
 
 # Socket
