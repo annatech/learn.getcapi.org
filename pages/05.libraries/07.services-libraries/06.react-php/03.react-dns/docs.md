@@ -1,5 +1,8 @@
 ---
 title: react-dns
+taxonomy:
+    category:
+        - docs
 ---
 
 # Dns Component
