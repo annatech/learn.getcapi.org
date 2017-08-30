@@ -1,5 +1,8 @@
 ---
 title: react-cache
+taxonomy:
+    category:
+        - docs
 ---
 
 # Cache Component
