@@ -1,5 +1,8 @@
 ---
 title: react-http
+taxonomy:
+    category:
+        - docs
 ---
 
 # Http Component
