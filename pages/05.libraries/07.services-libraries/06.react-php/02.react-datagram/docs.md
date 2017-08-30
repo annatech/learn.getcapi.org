@@ -1,5 +1,8 @@
 ---
 title: react-datagram
+taxonomy:
+    category:
+        - docs
 ---
 
 # Datagram component
