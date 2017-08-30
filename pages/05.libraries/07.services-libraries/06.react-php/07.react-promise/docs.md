@@ -1,5 +1,8 @@
 ---
 title: react-promise
+taxonomy:
+    category:
+        - docs
 ---
 
 React/Promise
