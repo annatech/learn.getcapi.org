@@ -1,5 +1,8 @@
 ---
 title: react-http-client
+taxonomy:
+    category:
+        - docs
 ---
 
 # HttpClient Component
