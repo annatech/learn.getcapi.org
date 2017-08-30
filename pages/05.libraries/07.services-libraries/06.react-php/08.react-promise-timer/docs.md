@@ -1,5 +1,8 @@
 ---
 title: react-promise-timer
+taxonomy:
+    category:
+        - docs
 ---
 
 # react/promise-timer [![Build Status](https://travis-ci.org/reactphp/promise-timer.svg?branch=master)](https://travis-ci.org/reactphp/promise-timer)
