@@ -6,6 +6,7 @@ taxonomy:
         - docs
 process:
     markdown: true
+    twig: false
 child_type: default
 routable: true
 cache_enable: true
@@ -18,6 +19,9 @@ List Joomla Content in Category by Category ID
 https://yourdomain.com/api/v1/category/list/:id/content
 
 ### Resource Information
+
+#### BUG
+This method currently requires core.admin ("Super User") permissions to return a response. This will be fixed in an upcoming release.
 
 | Option | Description |
 | ------ | ----------- |
