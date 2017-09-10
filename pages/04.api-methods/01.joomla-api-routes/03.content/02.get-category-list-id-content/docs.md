@@ -21,7 +21,7 @@ https://yourdomain.com/api/v1/category/list/:id/content
 ### Resource Information
 
 ***IMPORTANT ***
-This method currently requires core.admin ("Super User") permissions to return a response. This will be fixed in an upcoming release.
+- This method currently requires core.admin ("Super User") permissions to return a response. This will be fixed in an upcoming release.
 
 | Option | Description |
 | ------ | ----------- |
