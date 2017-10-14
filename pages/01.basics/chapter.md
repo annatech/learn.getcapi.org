@@ -31,24 +31,12 @@ Now listed in the Joomla! Extensions Directory.
         jQuery.ajax({
             url: requestUrl,
             type: "GET",
-            success: function (resultData) {
-            		totalTime = new Date().getTime() - start;
-            		jQuery( "#title" ).empty();
-                jQuery( "#requestUrl" ).empty();
-                jQuery( "#totalTime" ).empty();
-            		jQuery( "#output" ).empty();
-                jQuery( "#version" ).empty();
-                
-                jQuery( "#output" ).append(resultData.info.description).html;
+            success: function (resultData) {             
                 jQuery( "#version" ).append('Version '+resultData.info.version).html;
-                jQuery( "#title" ).append(resultData.info.title).html;
-                jQuery( "#requestUrl" ).append(requestUrl).html;
-                jQuery( "#totalTime" ).append(totalTime+ 'ms').html;
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 alert('error');
             },
-
             timeout: 120000
         });
     });
