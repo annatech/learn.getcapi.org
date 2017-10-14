@@ -11,7 +11,7 @@ taxonomy:
 ### Chapter 1
 
 # Getting Started
-cAPI is an extensible platform for building robust REST web services with the Joomla CMS. <span class="fa fa-arrow-right"></span> cAPI Core v1.3.3 [released!](https://www.annatech.com/capi-core.html)
+cAPI is an extensible platform for building robust REST web services with the Joomla CMS. <span class="fa fa-arrow-right"></span> cAPI Core v<span id="version"></span> [released!](https://www.annatech.com/capi-core.html)
 
 *** 100% *** GPL Open Source - The software is yours to keep, _forever_   <span class="fa fa-heart"></span> !
 
