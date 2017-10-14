@@ -11,7 +11,7 @@ taxonomy:
 ### Chapter 1
 
 # Getting Started
-cAPI is an extensible platform for building robust REST web services with the Joomla CMS. <span class="fa fa-arrow-right"></span> cAPI Core <span id="version"></span> [released!](https://www.annatech.com/capi-core.html)
+cAPI is an extensible platform for building robust REST web services with the Joomla CMS. <span class="fa fa-arrow-right"></span> cAPI Core v<span id="getversion"></span> [released!](https://www.annatech.com/capi-core.html)
 
 *** 100% *** GPL Open Source - The software is yours to keep, _forever_   <span class="fa fa-heart"></span> !
 
@@ -32,7 +32,7 @@ Now listed in the Joomla! Extensions Directory.
             url: requestUrl,
             type: "GET",
             success: function (resultData) {             
-                jQuery( "#version" ).append('Version '+resultData.info.version).html;
+                jQuery( "#getversion" ).append(resultData.info.version).html;
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 alert('error');
