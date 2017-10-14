@@ -1,5 +1,8 @@
 ---
 title: News
+taxonomy:
+    category:
+        - docs
 ---
 
 <div style="margin:auto;width:90%;">
