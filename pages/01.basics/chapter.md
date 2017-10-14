@@ -23,3 +23,33 @@ Now listed in the Joomla! Extensions Directory.
 [![](capi-logo-v2-333333-128.png)](https://extensions.joomla.org/extensions/extension/capi-core-rest-api)
 
 [![](joomla-extensions-developer.png)](https://extensions.joomla.org/profile/profile/details/293249/)
+
+<script type="text/javascript">
+    jQuery('button').on('click', function() {
+        var requestUrl= "https://www.annatech.com/api/v1/slim/swagger";
+        var start = new Date().getTime();
+        jQuery.ajax({
+            url: requestUrl,
+            type: "GET",
+            success: function (resultData) {
+            		totalTime = new Date().getTime() - start;
+            		jQuery( "#title" ).empty();
+                jQuery( "#requestUrl" ).empty();
+                jQuery( "#totalTime" ).empty();
+            		jQuery( "#output" ).empty();
+                jQuery( "#version" ).empty();
+                
+                jQuery( "#output" ).append(resultData.info.description).html;
+                jQuery( "#version" ).append('Version '+resultData.info.version).html;
+                jQuery( "#title" ).append(resultData.info.title).html;
+                jQuery( "#requestUrl" ).append(requestUrl).html;
+                jQuery( "#totalTime" ).append(totalTime+ 'ms').html;
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                alert('error');
+            },
+
+            timeout: 120000
+        });
+    });
+    </script>
