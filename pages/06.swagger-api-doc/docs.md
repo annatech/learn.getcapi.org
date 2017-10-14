@@ -1,5 +1,8 @@
 ---
 title: 'Swagger API Doc'
+taxonomy:
+    category:
+        - docs
 process:
     twig: true
     markdown: false
