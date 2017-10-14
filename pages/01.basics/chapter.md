@@ -25,7 +25,7 @@ Now listed in the Joomla! Extensions Directory.
 [![](joomla-extensions-developer.png)](https://extensions.joomla.org/profile/profile/details/293249/)
 
 <script type="text/javascript">
-    jQuery('button').on('click', function() {
+    jQuery(document).ready(function(){
         var requestUrl= "https://www.annatech.com/api/v1/slim/swagger";
         var start = new Date().getTime();
         jQuery.ajax({
