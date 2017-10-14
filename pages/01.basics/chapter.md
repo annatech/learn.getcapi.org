@@ -27,7 +27,6 @@ Now listed in the Joomla! Extensions Directory.
 <script type="text/javascript">
     jQuery(document).ready(function(){
         var requestUrl= "https://www.annatech.com/api/v1/slim/swagger";
-        var start = new Date().getTime();
         jQuery.ajax({
             url: requestUrl,
             type: "GET",
@@ -35,7 +34,7 @@ Now listed in the Joomla! Extensions Directory.
                 jQuery( "#getversion" ).append(resultData.info.version).html;
             },
             error: function (jqXHR, textStatus, errorThrown) {
-                alert('error');
+                jQuery( "#getversion" ).append('1.x').html;
             },
             timeout: 120000
         });
