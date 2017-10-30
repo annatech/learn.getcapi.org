@@ -27,6 +27,15 @@ If you need to you may construct and send basic auth headers yourself. To do thi
 * Supply an "Authorization" header with content "Basic " followed by the encoded string. For example, the string "bob:loblaw" encodes to "Ym9iOmxvYmxhdw==" in base64, so you would make the request as follows.
 curl -D- -X GET -H "Authorization: Basic Ym9iOmxvYmxhdw==" -H "Content-Type: application/json" "https://yoursite.com/api/v1/user"
 
+**Forcing Basic HTTP Authentication Prompt**
+
+An end user may trigger a Basic Auth challenge window by appending the following URL parameter to any REST method request:
+```
+basic_auth=true
+```
+This will prompt a modal pop-in (depending on web browser) requesting the authorized username and password. Once submitted, the credentials will be saved for the duration of the session.
+
+Note: Always use HTTPS encrypted connections when connecting to your REST API.
 
 
 ### Troubleshooting
