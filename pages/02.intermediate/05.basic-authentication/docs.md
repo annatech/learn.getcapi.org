@@ -62,7 +62,7 @@ RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 When Apache speaks via FastCGI with PHP, then the authorization header is available as REDIRECT_HTTP_AUTHORIZATION. There is no way to get rid of the REDIRECT_ in front; your code has to check both variants.
 
 
-### Additional References
+### References
 
 [HTTP Authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
 
@@ -73,5 +73,9 @@ When Apache speaks via FastCGI with PHP, then the authorization header is availa
 [How To Check If A String is Valid Base64 in PHP](https://stackoverflow.com/a/10797086/5361267)
 
 [Authentication and Authorization](https://httpd.apache.org/docs/2.4/howto/auth.html)
+
+[JIRA REST API Example - Basic Authentication](https://developer.atlassian.com/jiradev/jira-apis/jira-rest-apis/jira-rest-api-tutorials/jira-rest-api-example-basic-authentication)
+
+===
 
 @since version 1.3.4
