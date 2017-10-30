@@ -11,11 +11,13 @@ cAPI's REST API is protected by the same restrictions which are provided via Joo
 In most cases, the first step in using the cAPI REST API is to authenticate a user account with your Joomla site. Any authentication that works against Joomla will work against the REST API. On this page we will show you a simple example of basic authentication.
 
 **Simple example**
+
 Most client software provides a simple mechanism for supplying a user name and password and will build the required authentication headers automatically. For example you can specify the -u argument with curl as follows:
 ``` bash
 curl -D- -u Bob:Loblaw -X GET -H "Content-Type: application/json" https://yoursite.com/api/v1/user
 ```
 **Supplying Basic Auth headers**
+
 If you need to you may construct and send basic auth headers yourself. To do this you need to perform the following steps:
 
 * Build a string of the form username:password
