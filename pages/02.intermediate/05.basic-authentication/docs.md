@@ -5,9 +5,12 @@ taxonomy:
         - docs
 ---
 
+## Implemented version 1.3.4
+
 ### Overview
 
-### Additional Resources
+
+### Additional References
 
 [HTTP Authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
 
