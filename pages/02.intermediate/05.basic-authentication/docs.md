@@ -40,7 +40,7 @@ Note: Always use HTTPS encrypted connections when connecting to your REST API.
 
 ### Troubleshooting
 
-#### PHP Does Not See Authorization Header
+**PHP Does Not See Authorization Header**
 
 ( [original source](https://cweiske.de/tagebuch/php-apache-authorization.htm) )
 
