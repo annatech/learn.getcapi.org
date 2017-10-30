@@ -8,6 +8,8 @@ taxonomy:
 ### Overview
 cAPI's REST API is protected by the same restrictions which are provided via Joomla's standard web interface. This means that if you do not log in, you are accessing cAPI anonymously. Furthermore, if you log in and do not have permission to access something in Joomla, you will not be able to access it using the cAPI REST API either.
 
+_**Basic Authentication will be available in cAPI release v1.3.4**_
+
 In most cases, the first step in using the cAPI REST API is to authenticate a user account with your Joomla site. Any authentication that works against Joomla will work against the REST API. On this page we will show you a simple example of basic authentication.
 
 **Simple example**
