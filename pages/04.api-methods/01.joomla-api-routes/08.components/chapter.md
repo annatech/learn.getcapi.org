@@ -3,6 +3,9 @@ title: Components
 taxonomy:
     category:
         - docs
+process:
+    markdown: true
+    twig: true
 ---
 
 ## Coming soon!
