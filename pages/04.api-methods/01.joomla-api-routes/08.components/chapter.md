@@ -2,6 +2,6 @@
 title: Components
 ---
 
-### Coming soon!
+## Coming soon!
 
 @release cAPI v1.3.4
