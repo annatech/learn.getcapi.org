@@ -25,8 +25,8 @@ https://yourdomain.com/api/v1/component/model/data
 | Option | Description |
 | ------ | ----------- |
 | Response formats   | JSON |
-| Requires authentication | Yes - Super Admin |
-| Rate limited    | YES |
+| Requires authentication | Yes - core.edit or matching Access Level |
+| Rate limited    | YES (token only)|
 
 ### Parameters
 
