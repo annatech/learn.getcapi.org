@@ -6,6 +6,7 @@ taxonomy:
         - docs
 process:
     markdown: true
+    twig: false
 child_type: default
 routable: true
 cache_enable: true
@@ -29,7 +30,7 @@ https://yourdomain.com/api/v1/category/list/:id/categories
 
 ### Parameters
 
-Method does not accept parameters.
+id
 
 ### Example Request
 
