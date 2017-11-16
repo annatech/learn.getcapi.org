@@ -32,7 +32,16 @@ https://yourdomain.com/api/v1/component/model/data
 
 |  Name  |  Details  |  
 |  :-----          |  :-----          |
-|  **id** | <ul><li>required</li><li>integer</li></ul> |
+|  **option** | <ul><li>required</li><li>string</li></ul> |
+|  **type** | <ul><li>required</li><li>string</li></ul> |
+|  **prefix** | <ul><li>required</li><li>string</li></ul> |
+|  **context** | <ul><li>required</li><li>string</li><li>"administrator","site"</ul> |
+|  **filter_param** | <ul><li>optional</li><li>integer</li></ul> |
+|  **filter_value** | <ul><li>optional</li><li>mixed</li></ul> |
+|  **get_class_methods** | <ul><li>optional</li><li>integer,boolean</li><li>0,1</li></ul> |
+|  **activeFilters** | <ul><li>optional</li><li>integer,boolean</li><li>0,1</li></ul> |
+|  **properties** | <ul><li>optional</li><li>integer,boolean</li><li>0,1</li></ul> |
+
 
 ### Example Request
 
@@ -173,14 +182,15 @@ https://yourdomain.com/api/v1/component/model/data?option=Content&type=Articles&
 #### Response Headers
 ```
 HTTP/1.1 200 OK
-Date: Wed, 23 Dec 2015 01:24:55 GMT
-Server: Apache
-X-Powered-By: PHP/5.4.39
-Access-Control-Allow-Origin: *
-Joomla-Sessionid: 9f862b999999ffe35c1999991999998
-Access-Control-Allow-Headers: X-Requested-With, Origin, Content-Type, token, dlid, nonce
-Access-Control-Allow-Methods: PUT, GET, POST, DELETE, OPTIONS
-Keep-Alive: timeout=5, max=50
+Date: Thu, 16 Nov 2017 12:30:00 GMT
+Server: Apache/2.4.6
+X-Powered-By: PHP/7.0.25
+Joomla-Sessionid: 3aa0enpsfonvgnbjpuhuss5ufv
+Set-Cookie: d01caba7bc5c20bda9610d1fdd9da85=3ja0enpvgonvgnbjpuhumb5uf4; path=/; HttpOnly
+Set-Cookie: joomla_user_state=logged_in; path=/; HttpOnly
+Access-Control-Allow-Headers: X-Requested-With, Origin, Content-Type, token, dlid, nonce, Authorization
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: application/json
