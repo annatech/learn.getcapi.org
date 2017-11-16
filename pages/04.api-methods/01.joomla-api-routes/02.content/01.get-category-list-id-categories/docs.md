@@ -30,7 +30,9 @@ https://yourdomain.com/api/v1/category/list/:id/categories
 
 ### Parameters
 
-id
+|  Name  |  Details  |  
+|  :-----          |  :-----          |
+|  **id** | <ul><li>required</li><li>integer</li></ul> |
 
 ### Example Request
 
