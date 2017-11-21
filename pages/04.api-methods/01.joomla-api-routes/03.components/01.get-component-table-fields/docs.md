@@ -1,6 +1,6 @@
 ---
 title: 'GET component/table/fields'
-published: false
+published: true
 taxonomy:
     category:
         - docs
