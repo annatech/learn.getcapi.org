@@ -35,6 +35,11 @@ https://yourdomain.com/api/v1/component/model/data
 |  **option** | <ul><li>required</li><li>string</li></ul> |
 |  **type** | <ul><li>required</li><li>string</li></ul> |
 |  **prefix** | <ul><li>required</li><li>string</li></ul> |
+|  **filter_param** | <ul><li>optional</li><li>string</li></ul> |
+|  **filter_value** | <ul><li>optional</li><li>string</li></ul> |
+|  **get_class_methods** | <ul><li>optional</li><li>string</li><li>0,1</li></ul> |
+|  **properties** | <ul><li>optional</li><li>string</li><li>0,1</li></ul> |
+|  **activeFilters** | <ul><li>optional</li><li>string</li><li>0,1</li></ul> |
 
 ### Example Request
 
