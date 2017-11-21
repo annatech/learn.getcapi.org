@@ -25,7 +25,7 @@ https://yourdomain.com/api/v1/component/model/data
 | Option | Description |
 | ------ | ----------- |
 | Response formats   | JSON |
-| Requires authentication | Yes - core.edit or matching Access Level |
+| Requires authentication | Yes - core.edit on given component |
 | Rate limited    | YES (token only)|
 
 ### Parameters
@@ -35,18 +35,11 @@ https://yourdomain.com/api/v1/component/model/data
 |  **option** | <ul><li>required</li><li>string</li></ul> |
 |  **type** | <ul><li>required</li><li>string</li></ul> |
 |  **prefix** | <ul><li>required</li><li>string</li></ul> |
-|  **context** | <ul><li>required</li><li>string</li><li>"administrator","site"</ul> |
-|  **filter_param** | <ul><li>optional</li><li>integer</li></ul> |
-|  **filter_value** | <ul><li>optional</li><li>mixed</li></ul> |
-|  **get_class_methods** | <ul><li>optional</li><li>integer,boolean</li><li>0,1</li></ul> |
-|  **activeFilters** | <ul><li>optional</li><li>integer,boolean</li><li>0,1</li></ul> |
-|  **properties** | <ul><li>optional</li><li>integer,boolean</li><li>0,1</li></ul> |
-
 
 ### Example Request
 
 GET
-https://yourdomain.com/api/v1/component/model/data?option=Content&type=Articles&prefix=ContentModel&filter_param=filter.language&context=site&get_class_methods=0&activeFilters=0&properties=0
+https://yourdomain.com/api/v1/component/table/fields?&option=Content&type=Content&prefix=JTable
 
 ### Example Result
 
@@ -54,125 +47,337 @@ https://yourdomain.com/api/v1/component/model/data?option=Content&type=Articles&
 
 ```json
 {
-  "content": {
-    "items": [
-      {
-        "id": "1",
-        "title": "API Sandbox",
-        "alias": "api-sandbox",
-        "introtext": "",
-        "fulltext": "",
-        "checked_out": "0",
-        "checked_out_time": "0000-00-00 00:00:00",
-        "catid": "2",
-        "created": "2016-03-29 01:55:43",
-        "created_by": "184",
-        "created_by_alias": "",
-        "state": "1",
-        "modified": "2016-04-10 19:32:15",
-        "modified_by": "184",
-        "modified_by_name": "Super User",
-        "publish_up": "2016-03-29 01:55:43",
-        "publish_down": "0000-00-00 00:00:00",
-        "images": "{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}",
-        "urls": "{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}",
-        "attribs": "{\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_layout\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}",
-        "metadata": "{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}",
-        "metakey": "",
-        "metadesc": "",
-        "access": "1",
-        "hits": "300",
-        "xreference": "",
-        "featured": "0",
-        "language": "*",
-        "readmore": "0",
-        "ordering": "0",
-        "category_title": "Uncategorised",
-        "category_route": "uncategorised",
-        "category_access": "1",
-        "category_alias": "uncategorised",
-        "published": "1",
-        "parents_published": "1",
-        "lft": "1",
-        "author": "Super User",
-        "author_email": "stevetsi@annatech.com",
-        "parent_title": "ROOT",
-        "parent_id": "1",
-        "parent_route": "",
-        "parent_alias": "root",
-        "rating": "0",
-        "rating_count": "0",
-        "alternative_readmore": null,
-        "layout": null,
-        "params": {
-          "access-edit": true,
-          "access-view": true
-        },
-        "displayDate": "2016-03-29 01:55:43",
-        "tags": {
-          "typeAlias": null,
-          "itemTags": []
-        }
-      },
-      {
-        "id": "2",
-        "title": "Sample Article #1",
-        "alias": "sample-article-1",
-        "introtext": "Updated sample content",
-        "fulltext": "",
-        "checked_out": "0",
-        "checked_out_time": "0000-00-00 00:00:00",
-        "catid": "9",
-        "created": "2016-11-02 14:57:18",
-        "created_by": "184",
-        "created_by_alias": "",
-        "state": "1",
-        "modified": "2016-11-02 15:51:56",
-        "modified_by": "184",
-        "modified_by_name": "Super User",
-        "publish_up": "2016-11-02 14:57:18",
-        "publish_down": "0000-00-00 00:00:00",
-        "images": "{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}",
-        "urls": "{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}",
-        "attribs": "{\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_layout\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}",
-        "metadata": "{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}",
-        "metakey": "",
-        "metadesc": "",
-        "access": "1",
-        "hits": "141",
-        "xreference": "",
-        "featured": "0",
-        "language": "*",
-        "readmore": "0",
-        "ordering": "0",
-        "category_title": "Sandbox",
-        "category_route": "sandbox",
-        "category_access": "1",
-        "category_alias": "sandbox",
-        "published": "1",
-        "parents_published": "1",
-        "lft": "13",
-        "author": "Super User",
-        "author_email": "stevetsi@annatech.com",
-        "parent_title": "ROOT",
-        "parent_id": "1",
-        "parent_route": "",
-        "parent_alias": "root",
-        "rating": "0",
-        "rating_count": "0",
-        "alternative_readmore": null,
-        "layout": null,
-        "params": {
-          "access-edit": true,
-          "access-view": true
-        },
-        "displayDate": "2016-11-02 14:57:18",
-        "tags": {
-          "typeAlias": null,
-          "itemTags": []
-        }
-      }
-    ]
+  "fields": {
+    "id": {
+      "Field": "id",
+      "Type": "int(10) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "PRI",
+      "Default": null,
+      "Extra": "auto_increment",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "asset_id": {
+      "Field": "asset_id",
+      "Type": "int(10) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": "FK to the #__assets table."
+    },
+    "title": {
+      "Field": "title",
+      "Type": "varchar(255)",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "alias": {
+      "Field": "alias",
+      "Type": "varchar(400)",
+      "Collation": "utf8mb4_bin",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "introtext": {
+      "Field": "introtext",
+      "Type": "mediumtext",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "fulltext": {
+      "Field": "fulltext",
+      "Type": "mediumtext",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "state": {
+      "Field": "state",
+      "Type": "tinyint(3)",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "catid": {
+      "Field": "catid",
+      "Type": "int(10) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "created": {
+      "Field": "created",
+      "Type": "datetime",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "0000-00-00 00:00:00",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "created_by": {
+      "Field": "created_by",
+      "Type": "int(10) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "created_by_alias": {
+      "Field": "created_by_alias",
+      "Type": "varchar(255)",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": "",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "modified": {
+      "Field": "modified",
+      "Type": "datetime",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "0000-00-00 00:00:00",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "modified_by": {
+      "Field": "modified_by",
+      "Type": "int(10) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "checked_out": {
+      "Field": "checked_out",
+      "Type": "int(10) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "checked_out_time": {
+      "Field": "checked_out_time",
+      "Type": "datetime",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "0000-00-00 00:00:00",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "publish_up": {
+      "Field": "publish_up",
+      "Type": "datetime",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "0000-00-00 00:00:00",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "publish_down": {
+      "Field": "publish_down",
+      "Type": "datetime",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "0000-00-00 00:00:00",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "images": {
+      "Field": "images",
+      "Type": "text",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "urls": {
+      "Field": "urls",
+      "Type": "text",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "attribs": {
+      "Field": "attribs",
+      "Type": "varchar(5120)",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "version": {
+      "Field": "version",
+      "Type": "int(10) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "1",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "ordering": {
+      "Field": "ordering",
+      "Type": "int(11)",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "metakey": {
+      "Field": "metakey",
+      "Type": "text",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "metadesc": {
+      "Field": "metadesc",
+      "Type": "text",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "access": {
+      "Field": "access",
+      "Type": "int(10) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "hits": {
+      "Field": "hits",
+      "Type": "int(10) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "metadata": {
+      "Field": "metadata",
+      "Type": "text",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "",
+      "Default": null,
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": ""
+    },
+    "featured": {
+      "Field": "featured",
+      "Type": "tinyint(3) unsigned",
+      "Collation": null,
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": "0",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": "Set if article is featured."
+    },
+    "language": {
+      "Field": "language",
+      "Type": "char(7)",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": null,
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": "The language code for the article."
+    },
+    "xreference": {
+      "Field": "xreference",
+      "Type": "varchar(50)",
+      "Collation": "utf8mb4_unicode_ci",
+      "Null": "NO",
+      "Key": "MUL",
+      "Default": "",
+      "Extra": "",
+      "Privileges": "select,insert,update,references",
+      "Comment": "A reference to enable linkages to external data sets."
+    }
   },
   "error": false,
   "status": 200
@@ -182,11 +387,11 @@ https://yourdomain.com/api/v1/component/model/data?option=Content&type=Articles&
 #### Response Headers
 ```
 HTTP/1.1 200 OK
-Date: Thu, 16 Nov 2017 12:30:00 GMT
+Date: Tue, 21 Nov 2017 16:31:57 GMT
 Server: Apache/2.4.6
 X-Powered-By: PHP/7.0.25
-Joomla-Sessionid: 3aa0enpsfonvgnbjpuhuss5ufv
-Set-Cookie: d01caba7bc5c20bda9610d1fdd9da85=3ja0enpvgonvgnbjpuhumb5uf4; path=/; HttpOnly
+Joomla-Sessionid: auvvstq3btfqbtnfo43qk5v3n4
+Set-Cookie: 303caba3bc5c2a0bda3610d1fdd9da85=3uvrstqeb3fqbtcfo4rqk57gn4; path=/; HttpOnly
 Set-Cookie: joomla_user_state=logged_in; path=/; HttpOnly
 Access-Control-Allow-Headers: X-Requested-With, Origin, Content-Type, token, dlid, nonce, Authorization
 Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
@@ -194,5 +399,4 @@ Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: application/json
-
 ```
