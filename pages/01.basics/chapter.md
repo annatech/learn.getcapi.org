@@ -19,6 +19,10 @@ cAPI is an extensible platform for building robust REST web services with the Jo
 <div style="text-align:center;"><a href="https://www.annatech.com/signup/get-started-with-joomla-restful-web-services.html"><i class="fa fa-cart-arrow-down fa-4x"></i></a></div>
 ### [&nbsp;&nbsp;Ready to Buy?](https://www.annatech.com/signup/get-started-with-joomla-restful-web-services.html)
 
+### **Cyber Monday Deal** <span class="fa fa-thumbs-up"></span>
+(starts 2017-11-26 23:00 EST)<br>
+Use discount code **CYBERMONX2017** to get 35% off annual cAPI subscription!
+
 Now listed in the Joomla! Extensions Directory.
 [![](capi-logo-v2-333333-128.png)](https://extensions.joomla.org/extensions/extension/capi-core-rest-api)
 
@@ -26,12 +30,12 @@ Now listed in the Joomla! Extensions Directory.
 
 <script type="text/javascript">
     jQuery(document).ready(function(){
-        var requestUrl= "https://www.annatech.com/api/v1/slim/swagger";
+        var request= "https://www.annatech.com/api/v1/slim/swagger";
         jQuery.ajax({
-            url: requestUrl,
+            url: request,
             type: "GET",
-            success: function (resultData) {             
-                jQuery( "#getversion" ).append(resultData.info.version).html;
+            success: function (result) {             
+                jQuery( "#getversion" ).append(result.info.version).html;
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 jQuery( "#getversion" ).append('1.x').html;
