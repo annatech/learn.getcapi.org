@@ -1,5 +1,5 @@
 ---
-title: 'version 1.3.5'
+title: 'version 1.3.4.1'
 taxonomy:
     category:
         - docs
@@ -9,11 +9,16 @@ taxonomy:
 
 ## Overview
 ### Released 
-2017-11-15
+2017-11-27
 
-cAPI v1.3.4 introduces basic HTTP authentication via Authorization header and a collection of methods allowing API access to Component Model & Table data.
+cAPI v1.3.4.1 is a bug-fix release.
 
-This release includes the following:
+* Remove unnecessary path debug in GET component/list/all response.
+* Update URL for "Find out more about cAPI" link.
+* Change $extension->name to $extension->element
+* Update to version 1.3.4.1
+
+This release also includes the following:
 
 * Improve error trapping for GET component/model/data
 * Validate getInstance for getComponentModelData
