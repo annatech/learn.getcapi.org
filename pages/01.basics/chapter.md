@@ -17,10 +17,6 @@ cAPI is an extensible platform for building robust REST web services with the Jo
 
 *** $125 annual *** subscription gets you *** one year*** of upgrades and updates to the *** entire cAPI Core Package ***,  including the Control Panel and all current / new Joomla & Slim API methods.
 
-### **Cyber Monday Deal** <span class="fa fa-thumbs-up"></span>
-(starts 2017-11-26 23:00 EST)<br>
-Use discount code **CYBERMONX2017** to get 35% off annual cAPI subscription!
-
 <div style="text-align:center;"><a href="https://www.annatech.com/signup/get-started-with-joomla-restful-web-services.html"><i class="fa fa-cart-arrow-down fa-4x"></i></a></div>
 ### [&nbsp;&nbsp;Ready to Buy?](https://www.annatech.com/signup/get-started-with-joomla-restful-web-services.html)
 
