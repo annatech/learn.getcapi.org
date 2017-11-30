@@ -9,7 +9,16 @@ taxonomy:
 
 ## Overview
 ### Released 
-2017-11-27
+2017-11-30
+
+cAPI v1.3.4.2 is a bug-fix release.
+
+* Update version to 1.3.4.2
+* Require "Super User" (core.admin) privileges to access complete components list.
+* Create method GET /component/model to allow retrieving Model class information only. Helps with introspecting third-party Models which may not have known/standard Model methods.
+* Include modelMethod and modelMethodArguments (json) request parameters to GET /component/model/data to accommodate different Model class getters.
+* For GET /component/model/data, use call_user_func_array to call designated $modelMethod on $instance object with any number of arguments passed as JSON encoded array $modelMethodArguments.
+* Include HTML error codes for invalid requests.
 
 cAPI v1.3.4.1 is a bug-fix release.
 
