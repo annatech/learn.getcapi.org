@@ -42,7 +42,7 @@ https://yourdomain.com/api/v1/component/model
 ### Example Request
 
 GET
-https://www.annatech.com/api/v1/component/model?option=Content&type=Articles&prefix=ContentModel&context=administrator&get_class_methods=1&properties=1
+https://yourdomain.com/api/v1/component/model?option=Content&type=Articles&prefix=ContentModel&context=administrator&get_class_methods=1&properties=1
 
 ### Example Result
 
