@@ -1,6 +1,6 @@
 ---
-title: 'GET component/model/data 2'
-published: true
+title: 'GET component/model'
+published: false
 taxonomy:
     category:
         - docs
