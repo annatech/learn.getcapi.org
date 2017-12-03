@@ -29,7 +29,7 @@ https://yourdomain.com/api/v1/tag/name/:ids
 
 |  Name  |  Details  |  
 |  :-----          |  :-----          |
-|  **ids** | <ul><li>required</li><li>string</li><li></li>Comma-separate list of Tag id(s)</ul> |
+|  **ids** | <ul><li>required</li><li>string</li><li>Comma-separate list of Tag id(s)</li></ul> |
 
 
 
