@@ -1,6 +1,6 @@
 ---
 title: 'GET component/model'
-published: false
+published: true
 taxonomy:
     category:
         - docs
@@ -252,7 +252,7 @@ https://www.annatech.com/api/v1/component/model?option=Content&type=Articles&pre
 #### Response Headers
 ```
 HTTP/1.1 200 OK
-Date: Tue, 21 Nov 2017 16:42:01 GMT
+Date: Tue, 2 Dec 2017 16:42:01 GMT
 Server: Apache/2.4.6
 X-Powered-By: PHP/7.0.25
 Joomla-Sessionid: ccdvob3bhi3ludtfslv1smbgb7
