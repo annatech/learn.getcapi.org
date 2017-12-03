@@ -1,6 +1,5 @@
 ---
-title: 'GET tag/:id '
-published: false
+title: 'GET tag/name/:ids'
 taxonomy:
     category:
         - docs
@@ -13,10 +12,10 @@ cache_enable: true
 visible: true
 ---
 
-Returns Joomla content by ID.
+Return tag name(s) by id.
 
 ### Resource URL
-https://yourdomain.com/api/v1/content/item/:id
+https://yourdomain.com/api/v1/tag/name/:ids
 
 ### Resource Information
 
@@ -30,14 +29,14 @@ https://yourdomain.com/api/v1/content/item/:id
 
 |  Name  |  Details  |  
 |  :-----          |  :-----          |
-|  **id** | <ul><li>required</li><li>numeric</li></ul> |
+|  **ids** | <ul><li>required</li><li>string</li><li></li>Comma-separate list of Tag id(s)</ul> |
 
 
 
 ### Example Request
 
 GET
-https://yourdomain.com/api/v1/content/item/42
+https://yourdomain.com/api/v1/tag/name/2,5,6
 
 ### Example Result
 
@@ -45,38 +44,9 @@ https://yourdomain.com/api/v1/content/item/42
 
 ```json
 {
-  "article": {
-    "id": "42",
-    "asset_id": "999",
-    "title": "cAPI Core Package Ajax Test Page",
-    "alias": "capi-core-package-ajax-test-page",
-    "introtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a euismod lectus, quis porttitor eros. Sed pellentesque ex ac ante porta, et mollis elit malesuada. Quisque in felis accumsan, tempus urna eget, facilisis lorem. Suspendisse ornare nulla a erat lobortis rutrum.",
-    "fulltext": "",
-    "state": "1",
-    "catid": "2",
-    "created": "2015-09-23 01:54:56",
-    "created_by": "43",
-    "created_by_alias": "",
-    "modified": "2015-09-23 03:39:05",
-    "modified_by": "43",
-    "checked_out": "0",
-    "checked_out_time": "0000-00-00 00:00:00",
-    "publish_up": "2015-09-23 01:54:56",
-    "publish_down": "0000-00-00 00:00:00",
-    "images": "{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}",
-    "urls": "{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}",
-    "attribs": "{\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_layout\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}",
-    "version": "11",
-    "ordering": "0",
-    "metakey": "",
-    "metadesc": "",
-    "access": "2",
-    "hits": "0",
-    "metadata": "{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}",
-    "featured": "0",
-    "language": "*",
-    "xreference": ""
-  },
+  "0": "Sample Sub-tag 1",
+  "1": "Sample Sub-tag 2",
+  "2": "Sample Tag A",
   "error": false,
   "status": 200
 }
@@ -84,13 +54,15 @@ https://yourdomain.com/api/v1/content/item/42
 #### Response Headers
 ```
 HTTP/1.1 200 OK
-Date: Sun, 25 Oct 2015 16:33:13 GMT
-Server: Apache
-X-Powered-By: PHP/5.4.39
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Headers: X-Requested-With, Origin, Content-Type, token, dlid, nonce
-Access-Control-Allow-Methods: PUT, GET, POST, DELETE, OPTIONS
-Keep-Alive: timeout=5, max=50
+Date: Sun, 03 Dec 2017 17:31:42 GMT
+Server: Apache/2.4.6
+X-Powered-By: PHP/7.0.25
+Joomla-Sessionid: nb8oa730zt8kvgks7b9iqcl7va
+Set-Cookie: n01caba7fjeibng0bda9610d1fdd9da85=rb8oi7304jd9gh3seg9iqcl7v1; path=/; HttpOnly
+Set-Cookie: joomla_user_state=logged_in; path=/; HttpOnly
+Access-Control-Allow-Headers: X-Requested-With, Origin, Content-Type, token, dlid, nonce, Authorization
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: application/json
