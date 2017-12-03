@@ -13,10 +13,10 @@ cache_enable: true
 visible: true
 ---
 
-List all Joomla Tag Fields
+Return list of all tag types.
 
 ### Resource URL
-https://yourdomain.com/api/v1/tag/fields
+https://yourdomain.com/api/v1/tag/types
 
 ### Resource Information
 
@@ -33,7 +33,7 @@ This method does not accept parameters.
 ### Example Request
 
 GET
-https://yourdomain.com/api/v1/tag/fields
+https://yourdomain.com/api/v1/tag/types
 
 ### Example Result
 
