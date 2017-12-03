@@ -15,17 +15,17 @@ visible: true
 
 Returns data from component Model.
 
->>> Access depends on core.edit permissions at component or item level or item access level matching the requestor's account.
+>>> Requires basic logged-in access. Access to get_class_methods also requires core.edit permissions for component.
 
 ### Resource URL
-https://yourdomain.com/api/v1/component/model/data
+https://yourdomain.com/api/v1/component/model
 
 ### Resource Information
 
 | Option | Description |
 | ------ | ----------- |
 | Response formats   | JSON |
-| Requires authentication | Yes - core.edit on given component |
+| Requires authentication | Yes - Registered users. "core.edit" required on given component for get_class_methods|
 | Rate limited    | YES (token only)|
 
 ### Parameters
@@ -35,11 +35,9 @@ https://yourdomain.com/api/v1/component/model/data
 |  **option** | <ul><li>required</li><li>string</li></ul> |
 |  **type** | <ul><li>required</li><li>string</li></ul> |
 |  **prefix** | <ul><li>required</li><li>string</li></ul> |
-|  **filter_param** | <ul><li>optional</li><li>string</li></ul> |
-|  **filter_value** | <ul><li>optional</li><li>string</li></ul> |
+|  **context** | <ul><li>optional</li><li>string</li><li>administrator(default),site</ul> |
 |  **get_class_methods** | <ul><li>optional</li><li>string</li><li>0,1</li></ul> |
 |  **properties** | <ul><li>optional</li><li>string</li><li>0,1</li></ul> |
-|  **activeFilters** | <ul><li>optional</li><li>string</li><li>0,1</li></ul> |
 
 ### Example Request
 
