@@ -6,33 +6,30 @@ taxonomy:
         - docs
 ---
 
-Returns data from component Model.
+Return list of searched tags.
 
 >>> Access depends on core.edit permissions at component or item level or item access level matching the requestor's account.
 
 ### Resource URL
-https://yourdomain.com/api/v1/component/model/data
+https://yourdomain.com/api/v1/tag/search
 
 ### Resource Information
 
 | Option | Description |
 | ------ | ----------- |
 | Response formats   | JSON |
-| Requires authentication | Yes - core.edit on given component |
-| Rate limited    | YES (token only)|
+| Requires authentication | Optional |
+| Rate limited    | NO |
 
 ### Parameters
 
 |  Name  |  Details  |  
 |  :-----          |  :-----          |
-|  **option** | <ul><li>required</li><li>string</li></ul> |
-|  **type** | <ul><li>required</li><li>string</li></ul> |
-|  **prefix** | <ul><li>required</li><li>string</li></ul> |
-|  **filter_param** | <ul><li>optional</li><li>string</li></ul> |
-|  **filter_value** | <ul><li>optional</li><li>string</li></ul> |
-|  **get_class_methods** | <ul><li>optional</li><li>string</li><li>0,1</li></ul> |
-|  **properties** | <ul><li>optional</li><li>string</li><li>0,1</li></ul> |
-|  **activeFilters** | <ul><li>optional</li><li>string</li><li>0,1</li></ul> |
+|  **tag** | <ul><li>Tag search value</li><li>required</li><li>string</li></ul> |
+|  **title** | <ul><li>Tag title</li><li>optional</li><li>string</li></ul> |
+|  **flanguage** | <ul><li>Tag language</li><li>optional</li><li>string</li></ul> |
+|  **published** | <ul><li>Tag published state</li><li>optional</li><li>integer</li><li>0,1,-2</li></ul> |
+|  **parent_id** | <ul><li>Tag parent ID</li><li>optional</li><li>integer</li></ul> |
 
 ### Example Request
 
