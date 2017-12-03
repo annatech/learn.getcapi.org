@@ -98,6 +98,32 @@ https://yourdomain.com/api/v1//api/v1/tag/search?tag=&title=Sample%20Tag%20B&fla
 }
 ```
 
+### Example Request C
+
+GET
+https://yourdomain.com/api/v1//api/v1/tag/search?tag=&title=&flanguage=&published=1parent_id=4
+
+### Example Result C
+
+#### JSON Response
+
+```json
+{
+  "0": {
+    "value": "4",
+    "text": "Sample Tag C",
+    "path": "sample-tag-c"
+  },
+  "1": {
+    "value": "7",
+    "text": "Sample Tag C\/Sample Sub-tag 3",
+    "path": "sample-tag-c\/sample-sub-tag-3"
+  },
+  "error": false,
+  "status": 200
+}
+```
+
 #### Response Headers
 ```
 HTTP/1.1 200 OK
