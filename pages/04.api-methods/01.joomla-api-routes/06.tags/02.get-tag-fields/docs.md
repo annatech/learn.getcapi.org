@@ -23,7 +23,7 @@ https://yourdomain.com/api/v1/tag/fields
 | Option | Description |
 | ------ | ----------- |
 | Response formats   | JSON |
-| Requires authentication | Optional, session-based - Response depends on Joomla content security and user permissions levels. |
+| Requires authentication | Optional |
 | Rate limited    | NO |
 
 ### Parameters
