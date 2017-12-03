@@ -22,8 +22,8 @@ content:
 
 ## Content Under Construction
 
-### Released in cAPI v1.2.8!
-
 {% for p in page.collection %}
 #### [ {{ p.title }}]({{p.link}})
 {% endfor %}
+
+@release cAPI v1.2.8
