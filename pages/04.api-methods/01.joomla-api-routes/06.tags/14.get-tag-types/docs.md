@@ -198,16 +198,18 @@ https://yourdomain.com/api/v1/tag/types
 #### Response Headers
 ```
 HTTP/1.1 200 OK
-Date: Wed, 23 Dec 2015 01:35:36 GMT
+Date: Sun, 03 Dec 2017 16:38:06 GMT
 Server: Apache
-X-Powered-By: PHP/5.4.39
-Access-Control-Allow-Origin: *
-Joomla-Sessionid: 9f899999539999e35c14e999990f4839
-Access-Control-Allow-Headers: X-Requested-With, Origin, Content-Type, token, dlid, nonce
-Access-Control-Allow-Methods: PUT, GET, POST, DELETE, OPTIONS
-Keep-Alive: timeout=5, max=50
-Connection: Keep-Alive
-Transfer-Encoding: chunked
+Joomla-Sessionid: zocb4ms3ilk4iaan7g4o3rs3nw
+Set-Cookie: rfocb4ms3ilk4iaan7g4o3rs3nw732e6=5ocb4li3ilk4iaan7g4o3rp3n2; path=/; secure; HttpOnly
+Set-Cookie: joomla_user_state=logged_in; path=/; secure; HttpOnly
+Upgrade: h2,h2c
+Connection: Upgrade, Keep-Alive
+Cache-Control: max-age=172800
+Expires: Tue, 05 Dec 2017 16:38:06 GMT
+Vary: Accept-Encoding,User-Agent
+Access-Control-Allow-Headers: X-Requested-With, Origin, Content-Type, token, dlid, nonce, Authorization
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS
+Keep-Alive: timeout=5, max=100
 Content-Type: application/json
-
 ```
