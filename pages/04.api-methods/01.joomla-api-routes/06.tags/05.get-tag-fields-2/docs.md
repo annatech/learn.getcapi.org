@@ -1,5 +1,5 @@
 ---
-title: 'GET tag/fields 2'
+title: 'GET tag/types'
 published: true
 taxonomy:
     category:
