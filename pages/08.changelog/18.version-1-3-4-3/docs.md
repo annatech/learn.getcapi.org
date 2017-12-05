@@ -9,9 +9,16 @@ taxonomy:
 
 ## Overview
 ### Released 
-2017-11-30
+2017-12-05
 
-cAPI v1.3.4.2 is a bug-fix release.
+#### cAPI v1.3.4.3 is a bug-fix release.
+
+* Increment to version 1.3.4.3. Change joomlaID to j38
+* Resolved errors caused by undeclared, nested class objects.
+* Change minimum permission for GET component/model and GET component/list/all to core.login.admin
+* TODO: Improve access control check compatibility with various security modes for core and 3rd party extensions.
+
+#### cAPI v1.3.4.2 was a bug-fix release.
 
 * Update version to 1.3.4.2
 * Require "Super User" (core.admin) privileges to access complete components list.
@@ -20,14 +27,14 @@ cAPI v1.3.4.2 is a bug-fix release.
 * For GET /component/model/data, use call_user_func_array to call designated $modelMethod on $instance object with any number of arguments passed as JSON encoded array $modelMethodArguments.
 * Include HTML error codes for invalid requests.
 
-cAPI v1.3.4.1 is a bug-fix release.
+#### cAPI v1.3.4.1 was a bug-fix release.
 
 * Remove unnecessary path debug in GET component/list/all response.
 * Update URL for "Find out more about cAPI" link.
 * Change $extension->name to $extension->element
 * Update to version 1.3.4.1
 
-This release also includes the following:
+#### This release also includes the following:
 
 * Improve error trapping for GET component/model/data
 * Validate getInstance for getComponentModelData
@@ -45,7 +52,7 @@ This release also includes the following:
 * Create new class ServicesJoomlaHelpersComponent().
 * Increment to version 1.3.4.
 
-Previous release:
+#### Previous release:
 
 Remove extraneous tag_link_class parameter
 Increment cAPI version to 1.3.3
