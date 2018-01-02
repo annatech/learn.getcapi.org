@@ -1,8 +1,5 @@
 ---
 title: Overview
-taxonomy:
-    category:
-        - docs
 ---
 
 ## Why build a Joomla RESTful API? ##
