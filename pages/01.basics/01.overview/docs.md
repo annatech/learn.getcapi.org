@@ -1,6 +1,6 @@
 ---
 title: Overview
-published: false
+published: true
 taxonomy:
     category:
         - docs
