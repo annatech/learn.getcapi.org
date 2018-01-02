@@ -16,7 +16,7 @@ cAPI was developed to provide Joomla a ready-to-deploy, natively-compatible yet 
 
 ## What is cAPI? ##
 
-Code named "Constant API", cAPI is the fantastic result of an effort to mesh the [Slim micro-framework](http://) with the Joomla Framework / CMS. Once that goal was accomplished, it soon became obvious that just built a Joomla RESTful API was only the beginning! By leveraging Joomla's advanced "pluggable" architecture and robust ACL, cAPI can transform your website into a true middleware service for anything ranging from SQL servers, MongoDB servers and even Microsoft's Active Directory (think of the SSO possibilities!). 
+Code named "Constant API", cAPI is the fantastic result of an effort to mesh the [Slim micro-framework](http://docs.slimframework.com) with the Joomla Framework / CMS. Once that goal was accomplished, it soon became obvious that just built a Joomla RESTful API was only the beginning! By leveraging Joomla's advanced "pluggable" architecture and robust ACL, cAPI can transform your website into a true middleware service for anything ranging from SQL servers, MongoDB servers and even Microsoft's Active Directory (think of the SSO possibilities!). 
 
 ## How does it work? ##
 
