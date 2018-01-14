@@ -9,7 +9,20 @@ taxonomy:
 
 ## Overview
 ### Released 
-2017-12-05
+2018-01-14
+
+#### cAPI v1.3.4.4 is a bug-fix release.
+* Increment to version 1.3.4.4
+* Update function createTokenServicesRestManage() to allow own-token creation by any registered user, while restriction token creation, on behalf of other users, for requesting accounts which have core.create privilege on com_services.
+* Update docblock for updateTokenServicesRestManage() to include @throws Exception
+* Configured createTokenServicesRestManage() to allow token creation for:
+ * Self
+ * Other users if core.admin or if core.manage
+ * If not core.admin, requesting user must have access to all groups of target user ID (when userid is defined)
+
+ * Affects methods:
+ 	* POST /token/manage/userid/{userid}
+ 	* POST /token/manage/
 
 #### cAPI v1.3.4.3 is a bug-fix release.
 
