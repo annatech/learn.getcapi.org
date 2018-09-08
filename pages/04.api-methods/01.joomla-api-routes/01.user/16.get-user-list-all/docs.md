@@ -1,5 +1,5 @@
 ---
-title: 'GET user 2'
+title: 'GET user/list/all'
 published: false
 taxonomy:
     category:
