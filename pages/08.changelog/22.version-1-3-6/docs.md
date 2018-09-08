@@ -9,15 +9,13 @@ taxonomy:
 
 ## Overview
 ### Released 
-2018-08-11
+2018-09-08
 
-#### cAPI v1.3.5.1
-The following update is a minor bug fix to resolve an issue with a missing password field in Swagger UI for the POST / user/edit (create user) method.
+#### cAPI v1.3.6
+The following release include a new user method allowing authorized administrators to return a list of all user accounts.
 
-* Increment version to 1.3.5.1
-* Add password field to postUserEdit
-* Remove capi folder from services/libraries as it is not needed for now.
-* Remove capi from libraries list is there is no currently used services/capi library
+* Increment to version 1.3.6.
+* Create new method GET /user/list/all (getUserListAll)
 
 
 Updated documentation can be found here:
