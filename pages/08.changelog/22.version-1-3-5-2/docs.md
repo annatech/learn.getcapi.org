@@ -1,5 +1,5 @@
 ---
-title: 'version 1.3.5.2'
+title: 'version 1.3.6'
 taxonomy:
     category:
         - docs
