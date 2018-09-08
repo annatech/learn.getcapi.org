@@ -1,5 +1,6 @@
 ---
 title: 'GET user 2'
+published: false
 taxonomy:
     category:
         - docs
