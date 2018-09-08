@@ -15,7 +15,7 @@ https://yourdomain.com/api/v1/user/list/all
 | Option | Description |
 | ------ | ----------- |
 | Response formats   | JSON |
-| Requires authentication | Yes, core.edit |
+| Requires authentication | Yes, com_users core.edit |
 | Rate limited    | NO |
 
 ### Parameters
