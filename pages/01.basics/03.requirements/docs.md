@@ -7,13 +7,13 @@ taxonomy:
 
 ### Joomla
 
-cAPI is compatible with the latest stable version of Joomla 3.6.x or higher. We recommend [Joomla 3.8.1](https://www.joomla.org/announcements/release-news/5715-joomla-3-8-1-release.html) (latest version). [More info...](https://www.joomla.org/3/).
+cAPI is compatible with the latest stable version of Joomla 3.6.x or higher. We recommend [Joomla 3.8.12](https://www.joomla.org/announcements/release-news/5743-joomla-3-8-12-release.html) (latest version). [More info...](https://www.joomla.org/3/).
 
 ![](Joomla-Logo-Vert-Color-Slogan1.png)
 
 ### Additional Requirements
 
-Included below is an example of popular / supported server configurations. We build our developement environments using the REMI and EPEL repos (REMI mainly for PHP 5.6.x / 7.0.x and MariaDB 5.5.x). 
+Included below is an example of popular / supported server configurations. We build our developement environments using the REMI and EPEL repos (REMI mainly for PHP 5.6.x / 7.0.x+ and MariaDB 5.5.x+). 
 
 
 #### Linux
@@ -30,12 +30,12 @@ Nginx not officially supported yet
 
 #### PHP
 
-Minimum: PHP 5.6.x (latest, stable)
-Recommended: PHP 7.0.x (latest, stable) Note that this will depend on compatiblity of other Joomla extensions with PHP7.
+Minimum: PHP 7.0.x (latest, stable)
+Recommended: PHP 7.1.x (latest, stable) Note that this will depend on compatiblity of other Joomla extensions with PHP7.
 
 #### MySQL
 
 Minium: MySQL 5.5.x (latest, stable)
-Also supports latest stable MariaDB.
+Recommended: MariaDB (latest, stable)
 
 
