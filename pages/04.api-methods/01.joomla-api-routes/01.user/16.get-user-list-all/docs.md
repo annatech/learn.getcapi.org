@@ -1,6 +1,5 @@
 ---
 title: 'GET user/list/all'
-published: false
 taxonomy:
     category:
         - docs
