@@ -5,8 +5,9 @@ taxonomy:
         - docs
 ---
 
-### It's Easy!
+### It's Easy! Now FREE*
 
+<p>*cAPI Core is now available via a free subscription.</p>
 <span class="rt-icon-left wow bounceInLeft visible-phone">
   <i class="fa fa-5x pull-left fa-border visible-phone">1</i>
 </span>
