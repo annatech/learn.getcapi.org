@@ -15,7 +15,7 @@ cAPI is an extensible platform for building robust REST web services with the Jo
 
 *** 100% *** GPL Open Source - The software is yours to keep, _forever_   <span class="fa fa-heart"></span> !
 
-~~*** $150 annual *** subscription gets you *** one year*** of upgrades and updates to the *** entire cAPI Core Package ***,  including the Control Panel and all current / new Joomla & Slim API methods.
+~~*** $150 annual *** subscription gets you *** one year*** of upgrades and updates to the *** entire cAPI Core Package ***,  including the Control Panel and all current / new Joomla & Slim API methods.~~
 
 *** FREE *** subscription gets you *** lifetime *** upgrades and updates to the *** entire cAPI Core Package ***,  including the Control Panel and all current / new Joomla & Slim API methods.
 
