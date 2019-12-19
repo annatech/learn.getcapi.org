@@ -43,5 +43,5 @@ taxonomy:
 
 <div class="clear"></div>
 <div style="text-align:center">
-<h1><a type="button" href="https://www.annatech.com/plan/subscribe.html?Itemid=1015&group_id=2">{Buy Now}</a></h1>
+<h1><a type="button" href="https://www.annatech.com/plan/subscribe.html?Itemid=1015&group_id=22">{Sign Up}</a></h1>
 </div>
