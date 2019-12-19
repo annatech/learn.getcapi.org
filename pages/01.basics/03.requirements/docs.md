@@ -7,7 +7,7 @@ taxonomy:
 
 ### Joomla
 
-cAPI is compatible with the latest stable version of Joomla 3.9.x or higher. We recommend [Joomla 3.9.12](https://www.joomla.org/announcements/release-news/5776-joomla-3-9-12.html) (latest version). [More info...](https://www.joomla.org/3/).
+cAPI is compatible with the latest stable version of Joomla 3.9.x or higher. We recommend [Joomla 3.9.14](https://www.joomla.org/announcements/release-news/5781-joomla-3-9-14.html) (latest version). [More info...](https://www.joomla.org/3/).
 
 ![](Joomla-Logo-Vert-Color-Slogan1.png)
 
